@@ -1,0 +1,83 @@
+.introSection {
+  position: absolute;
+  bottom: 2rem;
+  left: 0;
+  right: 0;
+}
+.iconsDiv {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(51, 141, 194, 0.7);
+  background: linear-gradient(rgba(51, 141, 194, 0.9), rgba(165, 51, 194, 0.5));
+  width: 40%;
+  margin: auto;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+}
+
+.iconAndText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.imageIcon {
+  width: 2rem;
+  padding: 1rem;
+}
+
+.textBoxIntro {
+  display: flex;
+  width: 60%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(51, 141, 194, 0.8);
+  background: linear-gradient(rgba(51, 141, 194, 0.9), rgba(165, 51, 194, 0.4));
+  border-radius: 1rem;
+}
+
+.textBoxIntro__h1 {
+  text-align: right;
+  width: 50%;
+}
+
+.textBoxIntro__p {
+  text-align: left;
+  width: 50%;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 100;
+}
+
+.closingMenu {
+  margin: 1rem;
+  margin-right: 2rem;
+}
+.tecnologiesDiv {
+  background: linear-gradient(rgba(51, 141, 194, 0.7), rgba(165, 51, 194, 0.2));
+  /* background-color: rgba(51, 141, 194, 0.7); */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 80%;
+  /* border: 1px solid white; */
+  border-radius: 1rem;
+  margin: auto;
+  margin-bottom: 4rem;
+  margin-top: 2rem;
+}
+.tecnologies__image {
+  height: 50px;
+  width: 50px;
+}
+
+.tecnologyDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+}

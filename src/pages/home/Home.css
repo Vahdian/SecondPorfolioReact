@@ -1,0 +1,88 @@
+/* .titleText {
+  font-size: 8.5vw;
+  font-family: bebas neue, sans-serif;
+  font-weight: 700;
+  text-align: center;
+  margin: auto;
+  text-transform: uppercase;
+  background: linear-gradient(270deg, #5ad437, #3748d4, #c33f3f, #d4df39);
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 800% auto;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 800% 800%;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  padding-top: 0;
+  overflow: hidden;
+  -webkit-animation: AnimationName 30s ease infinite;
+  -moz-animation: AnimationName 30s ease infinite;
+  animation: AnimationName 30s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 97% 0%;
+  }
+  50% {
+    background-position: 4% 100%;
+  }
+  100% {
+    background-position: 97% 0%;
+  }
+}
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 97% 0%;
+  }
+  50% {
+    background-position: 4% 100%;
+  }
+  100% {
+    background-position: 97% 0%;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 97% 0%;
+  }
+  50% {
+    background-position: 4% 100%;
+  }
+  100% {
+    background-position: 97% 0%;
+  }
+} */
+
+.homeDiv {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+}
+.buttonStart {
+  padding: 1rem;
+  background: linear-gradient(rgba(51, 141, 194, 0.9), rgba(165, 51, 194, 0.3));
+  border-radius: 1rem;
+  border: none;
+  color: white;
+  width: 20%;
+  position: absolute;
+  bottom: 18rem;
+  font-size: 2rem;
+}
+
+.divsHome {
+  height: 300px;
+  width: 270px;
+  background-color: rgb(51, 51, 51);
+  padding: 1rem;
+  border-radius: 1rem;
+  margin: 1rem;
+  margin-top: 15rem;
+  box-shadow: 0px 0px 10px 10px rgba(155, 98, 207, 0.3);
+  background: linear-gradient(rgba(51, 141, 194, 0.9), rgba(165, 51, 194, 0.8));
+}

@@ -1,0 +1,106 @@
+.navbar {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin: auto;
+  position: absolute;
+  margin-top: 1rem;
+}
+.navbarImageAndText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  opacity: 0;
+}
+
+.navbarImage {
+  height: 2rem;
+  margin: 1rem;
+}
+.burgerMenuIcon {
+  margin-right: 2rem;
+}
+.navbar2 {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin: auto;
+  height: 100%;
+  background-color: rgba(36, 36, 36, 0.9);
+  position: absolute;
+  z-index: 100;
+  -webkit-animation: fadeIn ease 3s;
+  -moz-animation: fadeIn ease 3s;
+  -o-animation: fadeIn ease 3s;
+  -ms-animation: fadeIn ease 3s;
+}
+
+.navbarImageAndText2 {
+  opacity: 0;
+  margin: 1rem;
+}
+
+.linksMenu {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5rem;
+}
+
+.linksMenuh1 {
+  font-size: 6rem;
+}
+
+.linksMenuh1:hover {
+  color: cornflowerblue;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
