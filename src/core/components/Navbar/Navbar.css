@@ -5,6 +5,7 @@
   margin: auto;
   position: absolute;
   margin-top: 1rem;
+  z-index: 100;
 }
 .navbarImageAndText {
   display: flex;
@@ -52,6 +53,7 @@
 
 .linksMenuh1 {
   font-size: 6rem;
+  cursor: pointer;
 }
 
 .linksMenuh1:hover {
@@ -102,5 +104,13 @@
   }
   100% {
     opacity: 1;
+  }
+}
+
+@media only screen and (max-device-width: 414px) {
+  .linksMenuh1 {
+    font-size: 3rem;
+    cursor: pointer;
+    margin-top: 3rem;
   }
 }

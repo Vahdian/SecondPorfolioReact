@@ -1,0 +1,84 @@
+.portfolioDiv {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+}
+.portfolioDivTitle {
+  position: absolute;
+  margin-top: 5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.portfolioDivText {
+  position: absolute;
+  margin-top: 9rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-size: 0.9rem;
+  margin-left: auto;
+  margin-right: auto;
+  right: 0;
+  left: 0;
+}
+
+.projectContainer {
+  top: 15rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  background: linear-gradient(rgba(199, 136, 18, 0.9), rgb(255, 239, 9));
+  width: 80%;
+  height: 60%;
+  border-radius: 1rem;
+}
+
+.buttonClose {
+  position: absolute;
+  right: 0.5rem;
+  top: 0.5rem;
+  border: none;
+  color: white;
+  background-color: rgba(131, 131, 131, 0.1);
+}
+.imageProject {
+  width: 90%;
+  height: 40%;
+  border-radius: 1rem;
+  position: absolute;
+  top: 2rem;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+.imageProjectDiv {
+  width: 80%;
+  overflow: hidden;
+  margin: auto;
+}
+
+.projectTitle {
+  width: 180px;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.techUsedDiv {
+  position: absolute;
+  bottom: 0;
+  margin-right: auto;
+  margin-left: auto;
+  left: 0;
+  right: 0;
+}
+.techUsed {
+  height: 30px;
+  padding: 1rem;
+}

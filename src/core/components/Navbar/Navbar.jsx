@@ -27,6 +27,12 @@ export default function Navbar() {
   }
   function goPortfolio() {
     console.log("go portfolio");
+    history.push("/portfolio");
+    setShowMenu(!showMenu);
+  }
+  function goContact() {
+    console.log("go portfolio");
+    history.push("/contact");
     setShowMenu(!showMenu);
   }
 
@@ -63,6 +69,9 @@ export default function Navbar() {
             </h1>
             <h1 className="linksMenuh1" onClick={() => goPortfolio()}>
               PORTFOLIO
+            </h1>
+            <h1 className="linksMenuh1" onClick={() => goContact()}>
+              CONTACT
             </h1>
           </div>
         </navbar>

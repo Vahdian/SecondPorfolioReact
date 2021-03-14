@@ -16,6 +16,7 @@ import symfony from "../../assets/symfony.png";
 import python from "../../assets/python.png";
 import docker from "../../assets/docker.png";
 import sass from "../../assets/sass.png";
+import typescript from "../../assets/typescript.png";
 
 export default function Intro() {
   return (
@@ -76,6 +77,10 @@ export default function Intro() {
           <span>NodeJS</span>
         </div>
         <div className="tecnologyDiv">
+          <img src={typescript} className="tecnologies__image"></img>
+          <span>Typescript</span>
+        </div>
+        <div className="tecnologyDiv">
           <img src={mongodb} className="tecnologies__image"></img>
           <span>MongoDb</span>
         </div>
@@ -95,6 +100,7 @@ export default function Intro() {
           <img src={python} className="tecnologies__image"></img>
           <span>python</span>
         </div>
+
         <div className="tecnologyDiv">
           <img src={docker} className="tecnologies__image"></img>
           <span>Docker</span>

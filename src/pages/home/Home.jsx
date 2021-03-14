@@ -1,12 +1,12 @@
 import React from "react";
 import "./Home.css";
+import gp from "../../assets/icons/gpcolor.png";
 export default function Home() {
   return (
     <div className="homeDiv">
-      <div className="divsHome">  </div>
-      <div className="divsHome"></div>
-      <div className="divsHome"></div>
-      {/* <button className="buttonStart">START</button> */}
+      <img className="divsZero" src={gp}></img>
+      <h1 className="homeDivFull">FULL STACK DEVELOPER</h1>
+      <div className="fadeIn"></div>
     </div>
   );
 }
