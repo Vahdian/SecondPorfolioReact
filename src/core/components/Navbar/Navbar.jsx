@@ -22,7 +22,7 @@ export default function Navbar() {
   }
   function goAbout() {
     console.log("go about");
-    history.push("/intro");
+    history.push("/about");
     setShowMenu(!showMenu);
   }
   function goPortfolio() {

@@ -1,26 +1,28 @@
 .introSection {
   position: absolute;
-  bottom: 2rem;
+  top: 3rem;
   left: 0;
   right: 0;
 }
 .iconsDiv {
   display: flex;
   justify-content: center;
-  background-color: rgba(51, 141, 194, 0.7);
-  background: linear-gradient(rgba(51, 141, 194, 0.9), rgba(165, 51, 194, 0.5));
-  width: 40%;
+  background-color: rgba(121, 121, 121, 0.7);
+  background: linear-gradient(rgba(87, 87, 87, 0.9), rgba(65, 65, 65, 0.5));
+  width: 90%;
   margin: auto;
   border-radius: 1rem;
-  margin-bottom: 2rem;
+  margin-top: 2rem;
+  animation: fadeIn ease 4s;
 }
 
 .iconAndText {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 1rem;
+  margin: 0rem;
   padding: 1rem;
+  width: 25%;
 }
 
 .imageIcon {
@@ -30,18 +32,22 @@
 
 .textBoxIntro {
   display: flex;
-  width: 60%;
+  width: 90%;
   margin: auto;
+  margin-top: 1rem;
   justify-content: center;
   align-items: center;
   background-color: rgba(51, 141, 194, 0.8);
-  background: linear-gradient(rgba(51, 141, 194, 0.9), rgba(165, 51, 194, 0.4));
+  background: linear-gradient(rgba(87, 87, 87, 0.9), rgba(65, 65, 65, 0.5));
   border-radius: 1rem;
+  animation: fadeIn ease 4s;
 }
 
 .textBoxIntro__h1 {
-  text-align: right;
+  text-align: center;
   width: 50%;
+  font-size: 0.8rem;
+  padding: 10px;
 }
 
 .textBoxIntro__p {
@@ -57,30 +63,85 @@
   margin-right: 2rem;
 }
 .tecnologiesDiv {
-  background: linear-gradient(rgba(51, 141, 194, 0.7), rgba(165, 51, 194, 0.2));
+  background: linear-gradient(rgba(87, 87, 87, 0.9), rgba(65, 65, 65, 0.5));
   /* background-color: rgba(51, 141, 194, 0.7); */
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
-  width: 80%;
+  width: 90%;
   /* border: 1px solid white; */
   border-radius: 1rem;
   margin: auto;
-  margin-bottom: 4rem;
-  margin-top: 2rem;
+  margin-top: 1rem;
+  animation: fadeIn ease 4s;
 }
 .tecnologies__image {
-  height: 50px;
-  width: 50px;
+  height: 35px;
+  width: 35px;
 }
 
 .tecnologyDiv {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 1rem;
+  padding: 1rem;
+  width: 15%;
+}
+
+.tecnologyDivText {
+  font-size: 0.5rem;
+}
+
+.spanIcons {
+  font-size: 3vw;
+  text-align: center;
 }
 
 @media only screen and (max-device-width: 414px) {
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.9;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.4;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }

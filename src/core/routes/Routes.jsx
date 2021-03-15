@@ -9,7 +9,7 @@ export default function Routes() {
   return (
     <div>
       <Switch>
-        <Route path="/intro">
+        <Route path="/about">
           <Intro></Intro>
         </Route>
         <Route path="/home">

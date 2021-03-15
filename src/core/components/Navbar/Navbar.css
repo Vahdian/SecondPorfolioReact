@@ -31,10 +31,10 @@
   background-color: rgba(36, 36, 36, 0.9);
   position: absolute;
   z-index: 100;
-  -webkit-animation: fadeIn ease 3s;
-  -moz-animation: fadeIn ease 3s;
-  -o-animation: fadeIn ease 3s;
-  -ms-animation: fadeIn ease 3s;
+  -webkit-animation: fadeIn ease 2s;
+  -moz-animation: fadeIn ease 2s;
+  -o-animation: fadeIn ease 2s;
+  -ms-animation: fadeIn ease 2s;
 }
 
 .navbarImageAndText2 {
