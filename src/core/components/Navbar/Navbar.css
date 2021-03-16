@@ -6,6 +6,8 @@
   position: absolute;
   margin-top: 1rem;
   z-index: 100;
+  font-family: "Bebas Neue", cursive;
+
 }
 .navbarImageAndText {
   display: flex;
@@ -31,6 +33,8 @@
   background-color: rgba(36, 36, 36, 0.9);
   position: absolute;
   z-index: 100;
+  font-family: "Bebas Neue", cursive;
+
   -webkit-animation: fadeIn ease 2s;
   -moz-animation: fadeIn ease 2s;
   -o-animation: fadeIn ease 2s;
